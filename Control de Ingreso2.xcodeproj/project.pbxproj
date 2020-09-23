@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2A2D95251AA11E0011E017 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A2D94251AA11E0011E017 /* DetailsViewController.swift */; };
+		5B5F5B91251537A70030A9F8 /* TipoVisitante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F5B90251537A70030A9F8 /* TipoVisitante.swift */; };
+		5B5F5B93251538280030A9F8 /* Empresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F5B92251538280030A9F8 /* Empresa.swift */; };
+		5B5F5B9725153E350030A9F8 /* VisitasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F5B9625153E350030A9F8 /* VisitasController.swift */; };
+		5BD1CAE62519110E0005285E /* HorariosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1CAE42519110E0005285E /* HorariosCell.swift */; };
+		5BD1CAE72519110E0005285E /* HorariosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1CAE52519110E0005285E /* HorariosCell.xib */; };
+		5BD1CAEA251919F70005285E /* EmpresasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1CAE8251919F70005285E /* EmpresasCell.swift */; };
+		5BD1CAEB251919F70005285E /* EmpresasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1CAE9251919F70005285E /* EmpresasCell.xib */; };
+		5BD1CAEF251928FE0005285E /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1CAEE251928FE0005285E /* Usuario.swift */; };
+		5BD1CAF2251929FE0005285E /* UsuariosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1CAF0251929FE0005285E /* UsuariosCell.swift */; };
+		5BD1CAF3251929FE0005285E /* UsuariosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD1CAF1251929FE0005285E /* UsuariosCell.xib */; };
+		5BE231602514078400CAFB3F /* VisitantesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2315F2514078400CAFB3F /* VisitantesController.swift */; };
+		5BE231632514E5F700CAFB3F /* VisitantesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE231612514E5F700CAFB3F /* VisitantesCell.swift */; };
+		5BE231642514E5F700CAFB3F /* VisitantesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE231622514E5F700CAFB3F /* VisitantesCell.xib */; };
+		5BE2316625152C0200CAFB3F /* Visitante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2316525152C0200CAFB3F /* Visitante.swift */; };
+		5BEACF2D25111A2C004ABEB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEACF2B25111A2C004ABEB9 /* CollectionViewCell.swift */; };
+		5BEACF2E25111A2C004ABEB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEACF2C25111A2C004ABEB9 /* CollectionViewCell.xib */; };
+		5BEBC09A25154D8B00F12EB1 /* Visita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC09925154D8B00F12EB1 /* Visita.swift */; };
+		5BEBC09C25154E8000F12EB1 /* AreaRecinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC09B25154E8000F12EB1 /* AreaRecinto.swift */; };
+		5BEBC09E25154EEF00F12EB1 /* Recinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC09D25154EEE00F12EB1 /* Recinto.swift */; };
+		5BEBC0A025154F4C00F12EB1 /* Aduana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC09F25154F4C00F12EB1 /* Aduana.swift */; };
+		5BEBC0AE2518F8FE00F12EB1 /* BuscarXQRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC0AD2518F8FE00F12EB1 /* BuscarXQRController.swift */; };
+		5BEBC0B02518F9A700F12EB1 /* BuscarXCIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC0AF2518F9A700F12EB1 /* BuscarXCIController.swift */; };
+		5BEBC0B22518F9EC00F12EB1 /* HorariosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC0B12518F9EC00F12EB1 /* HorariosController.swift */; };
+		5BEBC0B42518FA0900F12EB1 /* EmpresasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC0B32518FA0900F12EB1 /* EmpresasController.swift */; };
+		5BEBC0B62518FA9100F12EB1 /* UsuariosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC0B52518FA9100F12EB1 /* UsuariosController.swift */; };
+		5BEBC0B82519078D00F12EB1 /* Horario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBC0B72519078D00F12EB1 /* Horario.swift */; };
 		5BFD479B250FDD05001EF194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD479A250FDD05001EF194 /* AppDelegate.swift */; };
 		5BFD479D250FDD05001EF194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD479C250FDD05001EF194 /* ViewController.swift */; };
 		5BFD47A0250FDD05001EF194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFD479E250FDD05001EF194 /* Main.storyboard */; };
@@ -14,6 +41,7 @@
 		5BFD47A5250FDD05001EF194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFD47A3250FDD05001EF194 /* LaunchScreen.storyboard */; };
 		5BFD47B0250FDD05001EF194 /* Control_de_Ingreso2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD47AF250FDD05001EF194 /* Control_de_Ingreso2Tests.swift */; };
 		5BFD47BB250FDD05001EF194 /* Control_de_Ingreso2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD47BA250FDD05001EF194 /* Control_de_Ingreso2UITests.swift */; };
+		5BFD47C925100A2A001EF194 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD47C825100A2A001EF194 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B2A2D94251AA11E0011E017 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5B5F5B90251537A70030A9F8 /* TipoVisitante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoVisitante.swift; sourceTree = "<group>"; };
+		5B5F5B92251538280030A9F8 /* Empresa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresa.swift; sourceTree = "<group>"; };
+		5B5F5B9625153E350030A9F8 /* VisitasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitasController.swift; sourceTree = "<group>"; };
+		5BD1CAE42519110E0005285E /* HorariosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorariosCell.swift; sourceTree = "<group>"; };
+		5BD1CAE52519110E0005285E /* HorariosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorariosCell.xib; sourceTree = "<group>"; };
+		5BD1CAE8251919F70005285E /* EmpresasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresasCell.swift; sourceTree = "<group>"; };
+		5BD1CAE9251919F70005285E /* EmpresasCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpresasCell.xib; sourceTree = "<group>"; };
+		5BD1CAEE251928FE0005285E /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		5BD1CAF0251929FE0005285E /* UsuariosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosCell.swift; sourceTree = "<group>"; };
+		5BD1CAF1251929FE0005285E /* UsuariosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuariosCell.xib; sourceTree = "<group>"; };
+		5BE2315F2514078400CAFB3F /* VisitantesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitantesController.swift; sourceTree = "<group>"; };
+		5BE231612514E5F700CAFB3F /* VisitantesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitantesCell.swift; sourceTree = "<group>"; };
+		5BE231622514E5F700CAFB3F /* VisitantesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitantesCell.xib; sourceTree = "<group>"; };
+		5BE2316525152C0200CAFB3F /* Visitante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitante.swift; sourceTree = "<group>"; };
+		5BEACF2B25111A2C004ABEB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = "Control de Ingreso2/View/CollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		5BEACF2C25111A2C004ABEB9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = "Control de Ingreso2/View/CollectionViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		5BEBC09925154D8B00F12EB1 /* Visita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visita.swift; sourceTree = "<group>"; };
+		5BEBC09B25154E8000F12EB1 /* AreaRecinto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaRecinto.swift; sourceTree = "<group>"; };
+		5BEBC09D25154EEE00F12EB1 /* Recinto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recinto.swift; sourceTree = "<group>"; };
+		5BEBC09F25154F4C00F12EB1 /* Aduana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aduana.swift; sourceTree = "<group>"; };
+		5BEBC0AD2518F8FE00F12EB1 /* BuscarXQRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarXQRController.swift; sourceTree = "<group>"; };
+		5BEBC0AF2518F9A700F12EB1 /* BuscarXCIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarXCIController.swift; sourceTree = "<group>"; };
+		5BEBC0B12518F9EC00F12EB1 /* HorariosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorariosController.swift; sourceTree = "<group>"; };
+		5BEBC0B32518FA0900F12EB1 /* EmpresasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpresasController.swift; sourceTree = "<group>"; };
+		5BEBC0B52518FA9100F12EB1 /* UsuariosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosController.swift; sourceTree = "<group>"; };
+		5BEBC0B72519078D00F12EB1 /* Horario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horario.swift; sourceTree = "<group>"; };
 		5BFD4797250FDD05001EF194 /* Control de Ingreso2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control de Ingreso2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFD479A250FDD05001EF194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BFD479C250FDD05001EF194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +102,7 @@
 		5BFD47B6250FDD05001EF194 /* Control de Ingreso2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Control de Ingreso2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFD47BA250FDD05001EF194 /* Control_de_Ingreso2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control_de_Ingreso2UITests.swift; sourceTree = "<group>"; };
 		5BFD47BC250FDD05001EF194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFD47C825100A2A001EF194 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +130,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BEACF2425110DC1004ABEB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BE2316525152C0200CAFB3F /* Visitante.swift */,
+				5B5F5B90251537A70030A9F8 /* TipoVisitante.swift */,
+				5B5F5B92251538280030A9F8 /* Empresa.swift */,
+				5BEBC09925154D8B00F12EB1 /* Visita.swift */,
+				5BEBC09B25154E8000F12EB1 /* AreaRecinto.swift */,
+				5BEBC09D25154EEE00F12EB1 /* Recinto.swift */,
+				5BEBC09F25154F4C00F12EB1 /* Aduana.swift */,
+				5BEBC0B72519078D00F12EB1 /* Horario.swift */,
+				5BD1CAEE251928FE0005285E /* Usuario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BEACF2525110E2A004ABEB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BEACF2B25111A2C004ABEB9 /* CollectionViewCell.swift */,
+				5BEACF2C25111A2C004ABEB9 /* CollectionViewCell.xib */,
+				5BE231612514E5F700CAFB3F /* VisitantesCell.swift */,
+				5BE231622514E5F700CAFB3F /* VisitantesCell.xib */,
+				5BD1CAE42519110E0005285E /* HorariosCell.swift */,
+				5BD1CAE52519110E0005285E /* HorariosCell.xib */,
+				5BD1CAE8251919F70005285E /* EmpresasCell.swift */,
+				5BD1CAE9251919F70005285E /* EmpresasCell.xib */,
+				5BD1CAF0251929FE0005285E /* UsuariosCell.swift */,
+				5BD1CAF1251929FE0005285E /* UsuariosCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BEACF2625110E35004ABEB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5BFD47C825100A2A001EF194 /* HomeController.swift */,
+				5BE2315F2514078400CAFB3F /* VisitantesController.swift */,
+				5B5F5B9625153E350030A9F8 /* VisitasController.swift */,
+				5BEBC0AD2518F8FE00F12EB1 /* BuscarXQRController.swift */,
+				5BEBC0AF2518F9A700F12EB1 /* BuscarXCIController.swift */,
+				5BEBC0B12518F9EC00F12EB1 /* HorariosController.swift */,
+				5BEBC0B32518FA0900F12EB1 /* EmpresasController.swift */,
+				5BEBC0B52518FA9100F12EB1 /* UsuariosController.swift */,
+				5B2A2D94251AA11E0011E017 /* DetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5BFD478E250FDD05001EF194 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +202,9 @@
 		5BFD4799250FDD05001EF194 /* Control de Ingreso2 */ = {
 			isa = PBXGroup;
 			children = (
+				5BEACF2625110E35004ABEB9 /* Controller */,
+				5BEACF2525110E2A004ABEB9 /* View */,
+				5BEACF2425110DC1004ABEB9 /* Model */,
 				5BFD479A250FDD05001EF194 /* AppDelegate.swift */,
 				5BFD479C250FDD05001EF194 /* ViewController.swift */,
 				5BFD479E250FDD05001EF194 /* Main.storyboard */,
@@ -233,8 +341,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BFD47A5250FDD05001EF194 /* LaunchScreen.storyboard in Resources */,
+				5BE231642514E5F700CAFB3F /* VisitantesCell.xib in Resources */,
 				5BFD47A2250FDD05001EF194 /* Assets.xcassets in Resources */,
+				5BEACF2E25111A2C004ABEB9 /* CollectionViewCell.xib in Resources */,
+				5BD1CAF3251929FE0005285E /* UsuariosCell.xib in Resources */,
+				5BD1CAE72519110E0005285E /* HorariosCell.xib in Resources */,
 				5BFD47A0250FDD05001EF194 /* Main.storyboard in Resources */,
+				5BD1CAEB251919F70005285E /* EmpresasCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +373,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BFD479D250FDD05001EF194 /* ViewController.swift in Sources */,
+				5B5F5B93251538280030A9F8 /* Empresa.swift in Sources */,
+				5BE2316625152C0200CAFB3F /* Visitante.swift in Sources */,
+				5BEBC0AE2518F8FE00F12EB1 /* BuscarXQRController.swift in Sources */,
 				5BFD479B250FDD05001EF194 /* AppDelegate.swift in Sources */,
+				5BE231602514078400CAFB3F /* VisitantesController.swift in Sources */,
+				5BEBC09E25154EEF00F12EB1 /* Recinto.swift in Sources */,
+				5BEBC0B42518FA0900F12EB1 /* EmpresasController.swift in Sources */,
+				5BD1CAF2251929FE0005285E /* UsuariosCell.swift in Sources */,
+				5BD1CAE62519110E0005285E /* HorariosCell.swift in Sources */,
+				5BD1CAEF251928FE0005285E /* Usuario.swift in Sources */,
+				5B5F5B91251537A70030A9F8 /* TipoVisitante.swift in Sources */,
+				5BEBC0B62518FA9100F12EB1 /* UsuariosController.swift in Sources */,
+				5BEACF2D25111A2C004ABEB9 /* CollectionViewCell.swift in Sources */,
+				5BEBC0B22518F9EC00F12EB1 /* HorariosController.swift in Sources */,
+				5BD1CAEA251919F70005285E /* EmpresasCell.swift in Sources */,
+				5BE231632514E5F700CAFB3F /* VisitantesCell.swift in Sources */,
+				5B5F5B9725153E350030A9F8 /* VisitasController.swift in Sources */,
+				5BFD47C925100A2A001EF194 /* HomeController.swift in Sources */,
+				5B2A2D95251AA11E0011E017 /* DetailsViewController.swift in Sources */,
+				5BEBC0B02518F9A700F12EB1 /* BuscarXCIController.swift in Sources */,
+				5BEBC0B82519078D00F12EB1 /* Horario.swift in Sources */,
+				5BEBC09C25154E8000F12EB1 /* AreaRecinto.swift in Sources */,
+				5BEBC0A025154F4C00F12EB1 /* Aduana.swift in Sources */,
+				5BEBC09A25154D8B00F12EB1 /* Visita.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
